@@ -1,73 +1,72 @@
-/*$('.container').load('introduction.html');*/
-$('.container').load('readings/commands.html');
+$('.container').load('src/interfaces/introduction.html');
 
 function main (){
 	$('#introduction').on('click', function(){
-		$('.container').load('introduction.html');
+		$('.container').load('src/interfaces/introduction.html');
 	});
 	
 	$('#authors').on('click', function(){
-		$('.container').load('authors.html');
+		$('.container').load('src/interfaces/authors.html');
 	});
 
 	/*readings*/
 
 	$('#reading1').on('click', function(){
-		$('.container').load('readings/config_env1-2.html');
+		$('.container').load('src/interfaces/readings/config_env1-2.html');
 	});
 
 	$('#reading2').on('click', function(){
-		$('.container').load('readings/create_bd.html');
+		$('.container').load('src/interfaces/readings/create_bd.html');
 	});
 
 	$('#reading3').on('click', function(){
-		$('.container').load('readings/commands.html');
+		$('.container').load('src/interfaces/readings/commands.html');
 	});
 
 	$('#reading4').on('click', function(){
-		$('.container').load('readings/create_user.html');
+		$('.container').load('src/interfaces/readings/create_user.html');
 	});
 
 	$('#reading5').on('click', function(){
-		$('.container').load('readings/connection_php_mysql.html');
+		$('.container').load('src/interfaces/readings/connection_php_mysql.html');
 	});
 
 	$('#reading6').on('click', function(){
-		$('.container').load('readings/test.html');
+		$('.container').load('src/interfaces/readings/test.html');
 	});
 
 	/*videos*/
 	$('#video1').on('click', function(){
-		$('.container').load('videos/video1.html');
+		$('.container').load('src/interfaces/videos/video1.html');
 	});
 
 	$('#video2').on('click', function(){
-		$('.container').load('videos/video2.html');
+		$('.container').load('src/interfaces/videos/video2.html');
 	});
 
 	/*Activities*/
 	$('#activity1').on('click', function(){
-		$('.container').load('activities/crossword.html');
+		$('.container').load('src/interfaces/activities/crossword.html');
 	});
 
 	$('#activity2').on('click', function(){
-		$('.container').load('activities/cuestionario.html');
+		$('.container').load('src/interfaces/activities/cuestionario.html');
 	});
 
 	$('#activity3').on('click', function(){
-		$('.container').load('activities/llenar_campos.html');
+		$('.container').load('src/interfaces/activities/llenar_campos.html');
 	});
 
 	$('#activity4').on('click', function(){
-		$('.container').load('activities/completar.html');
+		$('.container').load('src/interfaces/activities/completar.html');
 	});
 
 	$('#activity5').on('click', function(){
-		$('.container').load('activities/relacionar_columnas.html');
+		$('.container').load('src/interfaces/activities/relacionar_columnas.html');
 	});
 	
 	$('#activity6').on('click', function(){
-		$('.container').load('activities/crucigrama.html');
+		$('.container').load('src/interfaces/activities/crucigrama.html');
 	});
 }
 

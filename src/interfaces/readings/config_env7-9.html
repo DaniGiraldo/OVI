@@ -1,127 +1,43 @@
 <!-- titles -->
 <section class="title">
 	<span>Lectura 1 > Configurar el Entorno (XAMPP)</span>
-	<img id="back_cm" class="nav_arrow" src="../../assets/images/left_arrow.png" title="Atrás" onclick="$('.container').load('readings/config_env3-6.html')">
-	<img id="next_cm" class="nav_arrow" src="../../assets/images/right_arrow.png" title="Adelante" onclick="$('.container').load('readings/create_bd.html')">
+	<img class="nav_arrow" src="assets/images/left_arrow.png" title="Atrás" onclick="$('.container').load('src/interfaces/readings/config_env3-6.html')">
+	<img class="nav_arrow" src="assets/images/right_arrow.png" title="Adelante" onclick="$('.container').load('src/interfaces/readings/create_bd.html')">
 </section>
 <section class="main_info">
-	<span>
-		Parte fundamental de la programaci&oacute;n es configurar el entorno adecuadamente respecto a la necesidad de cada uno; 
-		en nuestro caso haremos uso de la herramienta llamada &ldquo;XAMPP&rdquo;, que es un entorno para desarrollo web, 
-		en donde se puede desarrollar aplicaciones con apache, PHP y base de datos en el motor &ldquo;MySQL&rdquo;. 
-		En esta herramienta se puede administrar la base de datos con PHPMyAdmin la cual tiene multiples opciones similares a trabajar 
-		desde el motor de base de datos.
-	</span>
-	
-	<span>
-		<p>Adem&aacute;s de sus componentes principales y destacados, tambi&eacute;n se puede encontrar seg&uacute;n el 
-		sistema operativo diferentes herramientas tales como Webalizer, OpenSSL (Software de anal&iacute;tica web), Apache 
-		Tomcat y los servidores FTP.</p>
+	<section class="sec_main">
+		<span>
+			<p><h4>7. Cerrar la instalaci&oacute;n</h4></p>
+			<p> Una vez completada la instalaci&oacute;n, 
+			damos clic en &ldquo;Finish&rdquo;, si deseamos entrar al panel de control inmediatamente, 
+			solo es necesario marcar la casilla que pregunta si deseamos hacerlo.    </p>
+		<aside>	
+			<img align="center" src="assets/images/readings/img7.png">
+			<i><p>Figura 7, Instalaci&oacute;n XAMP [Captura de pantalla &ndash; Instalaci&oacute;n Completa]. (2018).</p></i>
+		</aside>
+		</span>
 		
-		<p>Para configurar nuestro entorno debemos realizar los siguientes pasos:</p>
-	</span>
-	
-	<span>
-		<p><h4>1. Descarga</h4></p>
-		<p>Ingresar a la p&aacute;gina (https://www.apachefriends.org/es/download.html) y 
-		descargamos la versi&oacute;n correspondiente seg&uacute;n nuestras necesidades.   
-		</p>
-	<aside>	
-		<img align="center" src="../../assets/images/readings/img1.png">
-		<p><i>Figura 1. P&aacute;gina Apache friends [Captura de pantalla]. (2018). Recuperado de https://www.apachefriends.org/es/</i></p>
-	</aside>
-		<p>Una vez haya finalizado la descarga, procedemos a ejecutar el archivo .exe haciendo doble clic en &eacute;l.</p>
-	</span>
-	
-	<span>
-		<p><h4>2. Iniciar la instalaci&oacute;n</h4></p>
-		<p> Una vez hayamos realizado los pasos anteriores, se abrir&aacute; la ventana de inicio del asistente para instalar XAMPP. </p>
-	<aside>	
-		<img align="center" src="../../assets/images/readings/img2.png">
-		<p><i>Figura 2, Instalaci&oacute;n XAMP [Captura de pantalla &ndash; Inicio instalaci&oacute;n]. (2018).</i></p>
-	</aside>
-		<p> Para continuar con el ajuste de las configuraciones de la instalaci&oacute;n se hace clic en &ldquo;Next&rdquo; o &ldquo;Siguiente&rdquo;.</p>
-	</span>
-	
-	<span>
-		<p><h4>3. Selecci&oacute;n de los componentes.</h4></p>
-		<p>La siguiente pantalla que aparecer&aacute; ser&aacute; &ldquo;Select components&rdquo;, 
-		en este podemos excluir de la instalaci&oacute;n componentes aislados del paquete de software de XAMPP 
-		que no nos resulten &uacute;tiles.  Lo m&aacute;s recomendable es establecer la configuraci&oacute;n est&aacute;ndar para un 
-		servidor de prueba local, y luego damos clic en &ldquo;Next&rdquo; o &ldquo;Siguiente&rdquo;.</p>
+		<span>
+			<p>Una vez hayamos finalizado la instalaci&oacute;n:</p>  
+			<p><h4>Administrar los m&oacute;dulos</h4></p>
+			<p>Para cada m&oacute;dulo, existe una funci&oacute;n &ldquo;Admin&rdquo;.</p> 
+			<p>&bull; Accederemos a la direcci&oacute;n web del servidor a 
+			trav&eacute;s del navegador est&aacute;ndar del equipo o del navegador que sea de nuestra preferencia y en la 
+			barra de direcciones digitaremos (localhost), esto nos redirigir&aacute; a la p&aacute;gina principal de XAMPP 
+			en el local host, el dominio de la m&aacute;quina local.</p>
+		<aside>	
+			<img align="center" src="assets/images/readings/img8.png">
+			<i>	<p>  Figura 8, Instalaci&oacute;n XAMP [Captura de pantalla &ndash; Localhost]. (2018).</p></i>
+		</aside>
 		
-	<aside>	
-		<img align="center" src="../../assets/images/readings/img3.png">
-		<i><p>  Figura 3, Instalaci&oacute;n XAMP [Captura de pantalla &ndash; Select Components]. (2018).</p></i>
-	</aside>
-		
-	</span>
-	
-	<span>
-		<p><h4>4. Selecci&oacute;n del directorio para la instalaci&oacute;n</h4></p>
-		<p>En este paso escogeremos el directorio donde instalaremos el paquete. En el punto anterior se ha escogido la configuraci&oacute;n est&aacute;ndar, 
-		se crear&aacute; una carpeta con el nombre XAMPP en C:\, damos clic en &ldquo;Next&rdquo; o &ldquo;Siguiente&rdquo;.   
-		
-		
-	<aside>	
-		<img align="center" src="../../assets/images/readings/img4.png">
-		<i><p>Figura 4, Instalaci&oacute;n XAMP [Captura de pantalla &ndash; Selecci&oacute;n carpeta]. (2018).</p></i>
-	</aside>
-		
-	</span>
-	
-	<span>
-		<p><h4>5. Iniciar el proceso de instalaci&oacute;n</h4></p>
-		<p>En esta ventana se mostrar&aacute; el avance de la instalaci&oacute;n, se muestra como una barra de carga de color verde.</p>
-	<aside>	
-		<img align="center" src="../../assets/images/readings/img5.png">
-		<i><p>Figura 5, Instalación XAMP [Captura de pantalla – Instalación]. (2018).</p></i>
-	</aside>
-		
-	</span>
-	
-	<span>
-		<p><h4>6. Configurar Firewall Durante el proceso de instalaci&oacute;n</h4></p>
-		<p> Es frecuente que aparezca una ventana emergente, d&aacute;ndonos aviso del bloqueo de Firewall, 
-		en esta podemos marcar la casilla (Checkbox) que nos permitir&aacute; la comunicaci&oacute;n del servidor Apache en una 
-		red privada o en una red de trabajo.</p>
-	<aside>	
-		<img align="center" src="../../assets/images/readings/img6.png">
-		<i><p>Figura 6, Instalaci&oacute;n XAMP [Captura de pantalla &ndash; Bloqueo Firewall]. (2018).</p></i>
-	</aside>
-	</span>
-	
-	<span>
-		<p><h4>7. Cerrar la instalaci&oacute;n</h4></p>
-		<p> Una vez completada la instalaci&oacute;n, 
-		damos clic en &ldquo;Finish&rdquo;, si deseamos entrar al panel de control inmediatamente, 
-		solo es necesario marcar la casilla que pregunta si deseamos hacerlo.    </p>
-	<aside>	
-		<img align="center" src="../../assets/images/readings/img7.png">
-		<i><p>Figura 7, Instalaci&oacute;n XAMP [Captura de pantalla &ndash; Instalaci&oacute;n Completa]. (2018).</p></i>
-	</aside>
-	</span>
-	
-	<span>
-		<p>Una vez hayamos finalizado la instalaci&oacute;n:</p>  
-		<p><h4>Administrar los m&oacute;dulos</h4></p>
-		<p>Para cada m&oacute;dulo, existe una funci&oacute;n &ldquo;Admin&rdquo;.</p> 
-		<p>&bull; Accederemos a la direcci&oacute;n web del servidor a 
-		trav&eacute;s del navegador est&aacute;ndar del equipo o del navegador que sea de nuestra preferencia y en la 
-		barra de direcciones digitaremos (localhost), esto nos redirigir&aacute; a la p&aacute;gina principal de XAMPP 
-		en el local host, el dominio de la m&aacute;quina local.</p>
-	<aside>	
-		<img align="center" src="../../assets/images/readings/img8.png">
-		<i>	<p>  Figura 8, Instalaci&oacute;n XAMP [Captura de pantalla &ndash; Localhost]. (2018).</p></i>
-	</aside>
-	
-	<p> Ahora accederemos a &ldquo;phpMyAdmin&rdquo; interfaz de administraci&oacute;n 
-	para la base de datos MySQL, ubicada en la barra lateral derecha o en su defecto podemos entrar 
-	digitando en la barra de direcciones lo siguiente: ( localhost/phpmyadmin/).</p>   
-	 
-	<aside>	
-		<img align="center" src="../../assets/images/readings/img9.png">
-		<i>	<p>Figura 9, Instalaci&oacute;n XAMP [Captura de pantalla &ndash; phpMyAdmin]. (2018).</p></i>
-	</aside>
-	</span>
+		<p> Ahora accederemos a &ldquo;phpMyAdmin&rdquo; interfaz de administraci&oacute;n 
+		para la base de datos MySQL, ubicada en la barra lateral derecha o en su defecto podemos entrar 
+		digitando en la barra de direcciones lo siguiente: ( localhost/phpmyadmin/).</p>   
+		 
+		<aside>	
+			<img align="center" src="assets/images/readings/img9.png">
+			<i>	<p>Figura 9, Instalaci&oacute;n XAMP [Captura de pantalla &ndash; phpMyAdmin]. (2018).</p></i>
+		</aside>
+		</span>
+	</section>
 </section>
