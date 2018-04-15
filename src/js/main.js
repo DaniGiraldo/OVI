@@ -13,7 +13,7 @@ function main (){
 	/*readings*/
 
 	$('#reading1').on('click', function(){
-		$('.container').load('readings/config_env.html');
+		$('.container').load('readings/config_env1-2.html');
 	});
 
 	$('#reading2').on('click', function(){

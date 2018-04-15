@@ -1,12 +1,21 @@
 <!-- titles -->
 <section class="title">
 		<span>Lectura 3> Comandos Básicos</span>
-		<img id="back_cm" class="nav_arrow" src="../../assets/images/left_arrow.png" alt="Atrás" onclick="$('.container').load('readings/commands2.html')">
-		<img id="next_cm" class="nav_arrow" src="../../assets/images/right_arrow.png" title="Adelante" onclick="$('.container').load('readings/commands.html')">
+		<img id="back_cm" class="nav_arrow" src="../../assets/images/left_arrow.png" title="Atrás" onclick="$('.container').load('readings/config_env.html')">
+		<img id="next_cm" class="nav_arrow" src="../../assets/images/right_arrow.png" title="Adelante">
 </section>
 <section class="main_info">
 	<span>
-		<b>Comandos para el manejo de bases de datos:</b><br>
+		<b>Comandos:</b>
+		<br>A continuación verán un listado básico de los comandos de MySQL:
+		<br><br><b>Comandos para obtener información sobre la base de datos:</b>
+		<br><b>show databases; – </b>Listar todas las bases de datos.
+		<br><b>connect [database]; – </b>Conectarse a esa base de datos.
+		<br><b>show tables; –</b> Listar todas las tablas de una base de datos.
+		<br><b>show table status; –</b> Muestra información sobre las tablas de la base de datos.
+		<br><b>describe [table]; – </b>Muestra la estructura de una tabla de la base de datos.
+
+		<br><br><b>Comandos para el manejo de bases de datos:</b>
 		<br><b>drop table [table];–</b> Elimina la tabla, incluyendo registros y estructura.
 		<br><b>drop table if exists [table]; – </b>Elimina la tabla de la base de datos, pero antes verifica que exista.
 		<br><b>truncate table [table]; – </b>Elimina los registros, pero mantiene la estructura de la tabla.
@@ -14,9 +23,9 @@
 		<br><b>SELECT - </b>Hacer una selección de registros que se encuentren en la tabla.
 		<br><b>INSERT - </b>Insertar nuevos datos.
 		<br><b>UPDATE -</b>Actualizar registros existentes.
-		<br><b>DELETE -</b>Eliminar registros existentes.<br> 
+		<br><b>DELETE -</b>Eliminar registros existentes. 
 				
-		<br><b>Verificación y reparación de bases de datos:</b><br>
+		<br><br><b>Verificación y reparación de bases de datos:</b>
 		<br><b>check table [table]; – </b>Verificar la tabla.
 		<br><b>repair table [table]; – </b>Reparar la tabla rota.
 	</span>
