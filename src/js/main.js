@@ -19,19 +19,20 @@ function main (){
 		$('.container').load('readings/create_bd.html');
 	});
 
-	/*$('#reading2').on('click', function(){
-		$('.container').load('readings/create_user.html');
-	});*/
-
 	$('#reading3').on('click', function(){
-		$('.container').load('readings/connection_php_mysql.html');
-	});
-
-	$('#reading4').on('click', function(){
 		$('.container').load('readings/commands.html');
 	});
 
+	$('#reading4').on('click', function(){
+		$('.container').load('readings/create_user.html');
+	});
+
 	$('#reading5').on('click', function(){
+		$('.container').load('readings/connection_php_mysql.html');
+	});
+
+
+	$('#reading6').on('click', function(){
 		$('.container').load('readings/test.html');
 	});
 
