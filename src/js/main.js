@@ -49,6 +49,26 @@ function main (){
 	$('#activity1').on('click', function(){
 		$('.container').load('activities/crossword.html');
 	});
+
+	$('#activity2').on('click', function(){
+		$('.container').load('activities/cuestionario.html');
+	});
+
+	$('#activity3').on('click', function(){
+		$('.container').load('activities/llenar_campos.html');
+	});
+
+	$('#activity4').on('click', function(){
+		$('.container').load('activities/completar.html');
+	});
+
+	$('#activity5').on('click', function(){
+		$('.container').load('activities/relacionar_columnas.html');
+	});
+	
+	$('#activity6').on('click', function(){
+		$('.container').load('activities/crucigrama.html');
+	});
 }
 
 console.log('main.js loaded');
