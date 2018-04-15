@@ -1,4 +1,5 @@
-$('.container').load('introduction.html');
+/*$('.container').load('introduction.html');*/
+$('.container').load('readings/commands.html');
 
 function main (){
 	$('#introduction').on('click', function(){
@@ -31,7 +32,6 @@ function main (){
 		$('.container').load('readings/connection_php_mysql.html');
 	});
 
-
 	$('#reading6').on('click', function(){
 		$('.container').load('readings/test.html');
 	});
@@ -43,6 +43,11 @@ function main (){
 
 	$('#video2').on('click', function(){
 		$('.container').load('videos/video2.html');
+	});
+
+	/*Activities*/
+	$('#activity1').on('click', function(){
+		$('.container').load('activities/crossword.html');
 	});
 }
 
