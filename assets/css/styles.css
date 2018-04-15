@@ -4,7 +4,6 @@ body {
 }
 
 span {
-	/*font-family: 'Century';*/
 	font-family: 'Tw Cen MT';
 	font-weight: normal;
 	text-align: left;
@@ -21,7 +20,6 @@ span {
 .ovi_title {
 	width: 55%;
 	height: 40%; 
-	/*position: relative;*/
 	margin-top: -100%;
 	margin-left: 10%;
 	z-index: 2;
@@ -138,7 +136,6 @@ nav {
 	padding-top: 2px;
 	padding-bottom: 3px;
 	margin-left: -15px;
-	/*left: -50px;*/
 	right: 10px;
 	background-color: #34495e;
 	font-size: 30px;
@@ -160,13 +157,23 @@ nav {
 	align-content: center;
 }
 
-.main_info>aside {
+.main_info .sec_main_center>aside {
 	display: inline-flex;
 	flex-direction: row;
 	align-content: center;
 }
 
-.sec_main{
+.sec_main_center{
+	text-align: center;
+}
+
+.sec_main_left{
+	text-align: left;
+}
+
+.readings_img{
+	width: 400px;
+	height: 300px;
 	text-align: center;
 }
 
@@ -196,18 +203,24 @@ footer{
 	float: right;
 	width: 80px;
 	height: 60px;
-	/*padding: 7px;*/
 }
 
-.social_networks>img {
-	float: left;
-	width: 100px;
-	height: 100px;
-	padding: 7px;
+.dn{
+	display: none;
+}
+
+.social_network {
+	float: right;
+}
+
+
+.btn_sn{
+	width: 50px;
+	height: 50px;
 }
 
 .info_footer{
 	float: right;
-	width: 50%;
+	width: 45%;
 	color: #ffffff;
 }

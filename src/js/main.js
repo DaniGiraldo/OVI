@@ -50,23 +50,23 @@ function main (){
 	});
 
 	$('#activity2').on('click', function(){
-		$('.container').load('src/interfaces/activities/cuestionario.html');
+		$('.container').load('src/interfaces/activities/questionnaire.html');
 	});
 
 	$('#activity3').on('click', function(){
-		$('.container').load('src/interfaces/activities/llenar_campos.html');
+		$('.container').load('src/interfaces/activities/fill_fields.html');
 	});
 
 	$('#activity4').on('click', function(){
-		$('.container').load('src/interfaces/activities/completar.html');
+		$('.container').load('src/interfaces/activities/complete.html');
 	});
 
 	$('#activity5').on('click', function(){
-		$('.container').load('src/interfaces/activities/relacionar_columnas.html');
+		$('.container').load('src/interfaces/activities/relate_columns.html');
 	});
 	
 	$('#activity6').on('click', function(){
-		$('.container').load('src/interfaces/activities/crucigrama.html');
+		$('.container').load('src/interfaces/activities/alphabet_soup.html');
 	});
 }
 
